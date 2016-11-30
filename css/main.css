@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+}
+/*---------------------------------HEADER--------------*/
+header{
+    background: #f8f8f8;
+}
+.navbar.navbar-default{
+    margin: 0;!important;
+    border: none; 
+}
+.caption-g{
+    background-color: rgba(66,197,181,0.3);
+    border-radius:10px;
+}
+.caption-g h2{
+    margin: 0;
+    text-shadow: 1px 1px #ccc;
+}
+
+header .nav-girl{
+    float: right;
+}
+/*---------------------------------HERO--------------*/
+.hero{
+    background-image: url(../img/home.jpg);
+    height:auto;
+    background-size: cover;
+}
+/*---------------------------------SECTION-DOCUMENTAL-------------*/
+.section-1{
+    padding: 5% 0;
+}
+/*---------------------------------SECTION-HACKHATON-------------*/
+.section-2{
+    background-color: #ff0;
+    padding: 5% 0;
+}
+/*---------------------------------SECTION-CONTACTO-------------*/
+.contacto{
+ padding: 7% 0;   
+}
+/*---------------------------------FOOTER-------------*/
+footer{
+    background-color: #4497a3;
+    padding: 3%;
+    color: #fff;
+}
+footer span{
+    color: #ff0;
+}
+@media screen and (max-width:780px){
+    header .nav-girl{float: none;text-align: center;}
+}
